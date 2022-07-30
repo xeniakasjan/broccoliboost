@@ -76,16 +76,38 @@ public class creatingMethods {
     }
     // 4th task: Write a method to find the area of a circle with the radius received from a user
 
-    public static float areaOfCircle() {
+    public static double areaOfCircle() {
         Scanner scanner = new Scanner(System.in);
         //float pi = 3.14f;
         double area;
 
         System.out.println("Write a radius: ");
         float radius = scanner.nextFloat();
-        area = Math.PI*(radius*radius);
+        area = Math.PI * (radius * radius);
         //Area of the circle:  A = π * r2
         //return (pi*(radius*radius));
-        return (float) area;
+        return area;
+    }
+
+    /* 5th task: Write a method that takes a set of 3 numbers from the user and returns true if the addition of all three numbers is less than 100, else it returns false.*/
+
+    public static boolean threeNumbsReturn() {
+        Scanner scanner = new Scanner(System.in); //getting input from user
+
+        int[] userInput = new int[3];
+        System.out.println("Add 3 numbers: ");
+        for (int a = 0; a < 3; a++) {
+            userInput[a] = scanner.nextInt();
+
+            int sum = userInput[a];
+            sum = sum + userInput[a];
+
+            //for(a = 0; a < userInput.length; a++);
+                if (sum > 100) {
+                return true;
+            } else {
+            }
+        }
+        return false;
     }
 }
