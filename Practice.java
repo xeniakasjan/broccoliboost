@@ -9,6 +9,8 @@ public class Practice {
     public static void main(String[] args) {
         //creatingMethods.perimeterCalculation();
         //System.out.print("Perimeter is: " + creatingMethods.perimeterCalculation());
-        System.out.print("Reversed word: " + creatingMethods.reverseWord());
+        //System.out.print("Reversed word: " + creatingMethods.reverseWord());
+        //System.out.print("Smallest number is: " + creatingMethods.smallestNumber());
+        System.out.print("Area of a circle is: " + creatingMethods.areaOfCircle());
     }
 }
