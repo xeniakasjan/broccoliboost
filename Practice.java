@@ -12,6 +12,10 @@ public class Practice {
         //System.out.print("Reversed word: " + creatingMethods.reverseWord());
         //System.out.print("Smallest number is: " + creatingMethods.smallestNumber());
         //System.out.print("Area of a circle is: " + creatingMethods.areaOfCircle());
-        System.out.print("True or false: " + creatingMethods.threeNumbsReturn());
+        //System.out.print("True or false: " + creatingMethods.threeNumbsReturn());
+        //System.out.print(creatingMethods.squareRoot());
+        //System.out.print(creatingMethods.wordForwardsandBackwards());
+        //System.out.print(creatingMethods.leapYear());
+
     }
 }
